@@ -1,0 +1,74 @@
+
+<html>
+<head>
+<title>
+REGISTRATION FORM
+</title>
+<style>
+body {
+
+background-size:cover;
+margin:0;
+padding-top:100px;
+
+}
+#nav {
+padding-top:30px;
+font-size:25px;
+background:pink;
+width:470px;
+height:500px;
+margin:auto;
+border-radius:10px;
+opacity:.8;
+}
+#nav input{
+margin-top:8px;
+width:200px;
+height:30px;
+font-size:20px;
+border-radius:4px;
+}
+#nav input[name="ename"]{
+
+width:400px;
+
+}
+#nav input[name="mnum"]{
+
+width:400px;
+
+}
+#nav input[type="submit"]{
+margin-top:10px;
+width:200px;
+height:30px;
+font-size:20px;
+border-radius:4px;
+background:green;
+
+}
+
+</style>
+
+</head>
+<body background="image.jpg">
+<div id="nav">
+REGISTRATION FORM<hr> <br>
+
+<form action="http://localhost/registration/database.php" method="get">
+<input type="text" placeholder="First Name" name="fname">  
+<input type="text" placeholder="Last Name" name="lname">  <br>
+<input type="text" placeholder="Enter Email" name="ename">  <br>
+<input type="text" placeholder="Mobile No." name="mnum">  <br>
+<input type="password" placeholder="Enter password" name="Epwd">  
+<input type="password" placeholder="Re-enter password" name="Rpwd"><br>  
+<input type="radio" value="male" name="Gender"> MALE
+<input type="radio" value="female" name="Gender"> FEMALE<br>
+<input type="checkbox"name="Cbox" > Are you sure?<br>
+<input type="SUBMIT" value="REGISTER" name="SUBMIT"> <br>
+
+</form>
+</div>
+</body>
+</html>

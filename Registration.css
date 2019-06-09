@@ -1,0 +1,29 @@
+h3{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color: red;
+  text-align: center; 
+  text-decoration: underline
+}
+
+table{
+  font-family: Calibri; 
+ 
+  font-size: 16pt; 
+  font-style: italic;
+  font-weight: bold;
+  text-align:; 
+  color:#4dffff;
+  background-color:; 
+  border-collapse: collapse;
+  width:50%;  
+  
+  padding: 50px 30px 50px 80px;
+}
+
+body {
+    background-image: url("reg.jpg");
+background-size:100%;
+}

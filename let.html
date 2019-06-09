@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+
+var a=10;
+console.log(a);//scope of a is only in function add in let variable
+
+function add()
+{
+a=20;
+console.log(a);
+}
+add();
+console.log(a);
+
+</script>
+</body>
+</html>

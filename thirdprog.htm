@@ -1,0 +1,39 @@
+<html>
+
+<title> Fourth program </title>
+<head>
+<style>
+select
+{
+font-size:300%;
+}
+h1
+{
+text-align:center;
+}
+</style>
+
+<script type="text/javascript">
+function OnDropDownChange(dropDown)
+{
+var selectedValue=dropDown.options[dropDown.selectedIndex].value;
+document.getElementById("txtSelectedCapital").innerHTML=selectedValue;
+}
+</script>
+</head>
+<body>
+<form action=" ">
+<select name="countries" onChange="OnDropDownChange(this);">
+<option value=" ">----SELECT A COUNTRY---</option>
+<option value="NEW DELHI ">INDIA</option>
+<option value="WELLINGTON">NEW ZEALAND</option>
+<option value="PARIS ">FRANCE</option>
+<option value="ATHENS ">GREECE</option>
+<option value="MADRID ">SPAIN</option>
+</select>
+<hr><hr>
+<i><h1 style="color:red;font-family:calibra;font-size:400%;" id="txtSelectedCapital"
+type="text"></h1></i>
+</form>
+</body>
+</html>
